@@ -417,12 +417,12 @@ transition-timing-function
   animation-duration: 2s;
   animation-iteration-count: 20;
 }
-@keyframes allOver{
-  0%{background-color: #ffa8a8; left: 0px; top: 0px}
-  25%{background-color: #9c49ee; left: 200px; top: 0px}
-  50%{background-color: #2954ff; left: 0px; top: 0px}
-  75%{background-color: #419b42; left: 0px; top: 200px}
-  100%{background-color: #a8ffd7; left: 0px; top: 0px}
+@keyframes allOver {
+  0% { background-color: #ffa8a8; left: 0px; top: 0px }
+  25% { background-color: #9c49ee; left: 200px; top: 0px }
+  50% { background-color: #2954ff; left: 0px; top: 0px }
+  75% { background-color: #419b42; left: 0px; top: 200px }
+  100% { background-color: #a8ffd7; left: 0px; top: 0px }
 }
 /* Perspective Method*/
 
