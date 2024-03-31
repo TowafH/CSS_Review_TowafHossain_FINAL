@@ -200,10 +200,6 @@ hr{
 
 
 
-
-
-
-
 /* ANIMATIONS */
 
 /* 2D Animation X and Y axis */
@@ -423,6 +419,100 @@ transition-timing-function
   50% { background-color: #2954ff; left: 0px; top: 0px }
   75% { background-color: #419b42; left: 0px; top: 200px }
   100% { background-color: #a8ffd7; left: 0px; top: 0px }
+}
+
+#animate4{
+  position: relative;
+  animation-name: allOver2;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+@keyframes allOver2 {
+  0% { background-color: #905151; left: 0px; top: 0px }
+  25% { background-color: #91859d; left: 200px; top: 0px }
+  50% { background-color: #9c5e6a; left: 0px; top: 0px }
+  75% { background-color: #ff6b6b; left: 0px; top: 200px }
+  100% { background-color: #28fb98; left: 0px; top: 0px }
+}
+
+#animate5{
+  position: relative;
+  animation-name: allOver3;
+  animation-duration: 10s;
+  animation-iteration-count: ;
+}
+@keyframes allOver3 {
+  0% { background-color: #00d5ff; left: 0px; top: 0px }
+  25% { background-color: #ff0000; left: 200px; top: 0px }
+  50% { background-color: #ffffff; left: 0px; top: 0px }
+  75% { background-color: #000000; left: 0px; top: 200px }
+  100% { background-color: #00ff88; left: 0px; top: 0px }
+}
+#animate6{
+  position: relative;
+  animation-name: allOver4;
+  animation-duration: 10s;
+  animation-direction: reverse;
+}
+@keyframes allOver4 {
+  0% { background-color: #00ff04; left: 0px; top: 0px }
+  25% { background-color: #7300ff; left: 200px; top: 0px }
+  50% { background-color: #ff00d0; left: 0px; top: 0px }
+  75% { background-color: #73ff00; left: 0px; top: 200px }
+  100% { background-color: #d3ff75; left: 0px; top: 0px }
+}
+#animate7{
+  font-weight: bold;
+  position: relative;
+  animation: move 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+#div1{animation-timing-function: linear;}
+#div2{animation-timing-function: ease;}
+#div3{animation-timing-function: ease-in;}
+#div4{animation-timing-function: ease-out;}
+#div5{animation-timing-function: ease-in-out;}
+@keyframes move{
+  from {
+    left:0px;
+  }
+  to{
+    left:700px;
+  }
+}
+
+#animate8{
+  position: relative;
+  animation-name: cover;
+  animation-duration: 15s;  
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+@keyframes cover{
+  from {
+    top: 0px; 
+    background-color: navy;}
+} 
+  to{
+    top: 300px;
+  }
+#animate9{
+  position: relative;
+  animation-name: shorthand;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes shorthand {
+  0% { background-color: #88a5aa; left: 0px; top: 0px }
+  25% { background-color: #0062ff; left: 200px; top: 0px }
+  50% { background-color: #8a5656; left: 0px; top: 0px }
+  75% { background-color: #9a934c; left: 0px; top: 200px }
+  100% { background-color: #b0e3cb; left: 0px; top: 0px }
 }
 /* Perspective Method*/
 
